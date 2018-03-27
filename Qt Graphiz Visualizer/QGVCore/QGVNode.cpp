@@ -75,7 +75,7 @@ void QGVNode::paint(QPainter * painter, const QStyleOptionGraphicsItem *, QWidge
 
     const QRectF rect = boundingRect().adjusted(2,2,-2,-2); //Margin
 
-        painter->drawText(rect, Qt::AlignCenter , QGVNode::label());
+        painter->drawText(rect, Qt::AlignCenter , alable);
         painter->drawText(rect, Qt::AlignTop | Qt::AlignHCenter, QGVNode::getfrequnecy());
     painter->restore();
 }
