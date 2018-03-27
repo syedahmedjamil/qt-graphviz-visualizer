@@ -17,32 +17,37 @@ License along with this library.
 ***************************************************************/
 #include "graphvizwrapper.h"
 #include <QApplication>
+#include <QString>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     GraphvizWrapper graph;
 
+    QString s1 =  QString::fromUtf8("کیا کر رہے ہو ؟");
+    QString s2 =  QString::fromUtf8("میرا نام احمد ہے");
+    QString s3 =  QString::fromUtf8("آخر کار چل ہی گیا");
+
     //Add Nodes Like This
-    graph.addNode("Qt" , 4);
+    graph.addNode(s1,4);
     graph.addNode("QML" , 23);
     graph.addNode("C#" , 54);
     graph.addNode("C++" , 77);
     graph.addNode("Java" , 22);
-    graph.addNode("Python" , 78);
+    graph.addNode(s3 , 78);
     graph.addNode("Scala" , 78);
-    graph.addNode("Swift" , 78);
+    graph.addNode(s2 , 78);
 
     //Add Edges Like This
-    graph.addEdge("Qt","C#",222);
-    graph.addEdge("Qt","QML",123);
+    graph.addEdge(s1,"C#",222);
+    graph.addEdge(s1,"QML",123);
     graph.addEdge("QML","C++",400);
     graph.addEdge("C#","Scala",29);
-    graph.addEdge("C#","Python",567);
+    graph.addEdge("C#",s3,567);
     graph.addEdge("C#","Java",567);
-    graph.addEdge("Python","Swift",567);
-    graph.addEdge("Python","Python",400);
-    graph.addEdge("Swift","Qt",400);
+    graph.addEdge(s3,s2,567);
+    graph.addEdge(s3,s3,400);
+    graph.addEdge(s2,s1,400);
 
     //Add Attributes Like This
     graph.addGraphAttribute("rankdir", "LR");
