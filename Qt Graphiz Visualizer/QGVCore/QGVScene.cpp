@@ -72,6 +72,7 @@ QGVNode *QGVScene::addNode(const QString &label , int frequency)
     }
     QGVNode *item = new QGVNode(new QGVNodePrivate(node, _graph->graph()), this);
     item->setLabel(label);
+    item->alable = label;
     item->frequency = frequency;
     addItem(item);
     _nodes.append(item);
