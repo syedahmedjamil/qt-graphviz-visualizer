@@ -36,6 +36,7 @@ public:
     ~QGVNode();
 
     QString label() const;
+    QString alable;
     QString getfrequnecy() const;
     void setLabel(const QString &label);
 
