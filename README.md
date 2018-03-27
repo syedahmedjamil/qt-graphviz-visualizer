@@ -31,7 +31,7 @@ How to Download and use this :
 * Download GraphViz 2.8 Stable from (https://graphviz.gitlab.io/_pages/Download/Download_windows.html)
 * Clone or Download this repository
 * Navigate to the following path and open (Qt GraphViz Visualizer/QGVCore/GraphViz.pri) file
-* Change the #GRAPHVIZ_PATH installtion path to where you installed GraphViz in you computer as shown in the following image
+* Change the **GRAPHVIZ_PATH** installtion path to where you installed GraphViz in you computer as shown in the following image
 
 ![installation](https://i.imgur.com/ocJd7vL.png)
 
