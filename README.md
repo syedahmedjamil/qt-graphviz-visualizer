@@ -1,9 +1,9 @@
 GraphViz Dot Visualizer C++ Qt Widget
 =====================================
 
-This is extended version of (https://github.com/nbergont/qgv).
-I have added a wrapper class to easily add edges , nodes , attributes . Just include the graphVizwrapper.h class in your main file <br/>
-and use the functions present in the class 
+This is extended version of (https://github.com/nbergont/qgv).<br/>
+I have added a wrapper class to easily add edges , nodes , attributes.<br/> 
+Just include the graphVizwrapper.h class in your main file and use the functions present in the class 
 
 Demo :
 ------
