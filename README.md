@@ -8,7 +8,7 @@ and use the functions present in the class
 Demo :
 ------
 
-http://www.mediafire.com/view/jxmla4vgqmthbj9/Demo.png
+![Demo](http://www.mediafire.com/view/jxmla4vgqmthbj9/Demo.png)
 
 The Code :
 ----------
