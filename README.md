@@ -44,7 +44,7 @@ paste the dll files from any of my build directoy to yours.
 * If something like following happens when opening the project file then just click "NO"
 ![Popup](https://i.imgur.com/QQTJzdM.png)
 
-Ask any questions you may like via email (ahmed.jamil112233@gmail.com)
+Ask any questions you may like via email (ahmedjamilcs@gmail.com)
 
 
 
